@@ -64,7 +64,7 @@ AppAsset::register($this);
             'links' => isset($this->params['breadcrumbs']) ? $this->params['breadcrumbs'] : [],
         ]) ?>
         <?= Alert::widget() ?>
-        <h1><?= Yii::t('en-US', 'Basic Layout') ?></h1>
+        <h1><?= 'Basic Layout'; ?></h1>
         <?= $content ?>
     </div>
 </div>
